@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estil.css">
+    <link rel="icon"
+        href="https://www.rae.es/sites/default/files/styles/wysiwyg_100_/public/2021-07/ramdomtwitter_Mesa%20de%20trabajo%201.png?itok=JfO9YVoD">
+    <title>SISTEMAS</title>
+</head>
+
+<body class="grid-container">
+    <nav class="navbar"><i class="fa-solid fa-gear"></i>&nbsp&nbspPOST</nav>
+    <header class="header"><i class="fa-duotone fa-alien-8bit"></i></header>
+    <div class="xd">
+        <h1>Lista de Post
+            
+        </h1> 
+    <h1>_________________________________________________________________</h1>
+    </div>
+
+
+    <section class="main"><br>
+        <input type="text" class="caja" id="nombres" placeholder="Titulos" required><br><br>
+        <input type="text"class="caja2" id ="descripcion" placeholder="Descripcion" ><br><br>
+        <button class="boton" onclick="registrar()">Agregar</button><br><br>
+        <br><br>
+    </section>
+    <div class="container max">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Descripcion</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="tbd"></tbody>
+        </table>
+    </div>
+    <script src="js/javas.js"></script>
+
+
+</body>
+
+</html>
